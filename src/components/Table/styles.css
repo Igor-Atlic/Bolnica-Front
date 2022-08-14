@@ -1,0 +1,358 @@
+.myTitle {
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 2%;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+
+  color: #25282b;
+}
+
+.myTable {
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 90%;
+  text-align: center;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.responsivnes {
+  overflow-x: auto;
+}
+
+.buttonIcon {
+  border: 0px;
+  background: transparent;
+  color: #ff6760;
+  padding: 5px 10px;
+}
+
+.buttonIconBlue {
+  border: 0px;
+  background: transparent;
+  color: #336cfb;
+  padding: 5px 10px;
+}
+
+.buttonIconGreen {
+  border: 0px;
+  background: transparent;
+  color: #10b981;
+  padding: 5px 10px;
+}
+
+.myIcon {
+  color: #336cfb;
+}
+
+table.table-bordered > thead > tr {
+  border-bottom: 1px solid #e9f0ff;
+}
+table.table-bordered > tbody > tr {
+  border-bottom: 1px solid #e9f0ff;
+}
+
+.table-hover tbody tr:hover td {
+  background: #e9f0ff;
+}
+
+.table > :not(:first-child) {
+  border-top: 0px;
+}
+
+.myPagination {
+  padding-left: 5%;
+}
+.myPagButton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-color: #336cfb;
+  color: #25282b;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 2px;
+}
+.paginationItem.active {
+  background-color: #336cfb;
+  color: #ffffff;
+}
+.prev,
+.next {
+  padding: 9px 11px;
+}
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+  border-color: #999;
+}
+.header {
+  background-color: #e9f0ff;
+  color: #25282b;
+  letter-spacing: 0.1px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.body {
+  letter-spacing: 0.1px;
+  color: #52575c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.searchButton {
+  background-color: #cacccf;
+  border-color: #cacccf;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.searchZReserved {
+  background-color: #fac032;
+  border-color: #fac032;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.searchCanceled {
+  background-color: #e74f48;
+  border-color: #e74f48;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.searchFinished {
+  background-color: #16d090;
+  border-color: #16d090;
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.buttonZakazano {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #fac032;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: not-allowed;
+  pointer-events: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buttonOtkazano {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #e74f48;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.buttonKreirajNalog {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 80%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.tdButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.inactiveButton {
+  background-color: #cacccf;
+  /*   width: 20%;
+  height: 50%; */
+}
+
+.disbledButton {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.buttonPrihvati {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #10b981;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.buttonOtkazi {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #e74f48;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.inactiveButtonOtkazi {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #cacccf;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.inactiveButtonPrihvati {
+  /*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /*   width: 20%;
+  height: 50%; */
+  font-size: 12px;
+  background-color: #cacccf;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.buttonBlue {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: 0px;
+  background-color: #336cfb;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}

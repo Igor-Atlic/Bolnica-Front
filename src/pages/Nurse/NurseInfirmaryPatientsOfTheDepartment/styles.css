@@ -1,0 +1,34 @@
+.flexRow {
+  display: flex;
+  align-items: flex-end;
+}
+.active {
+  width: 100%;
+  background: #336cfb;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #ffffff;
+}
+.disabled {
+  width: 100%;
+  background: #cacccf;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 5px;
+  border-color: #cacccf;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #ffffff;
+}
+.butReg {
+  margin-top: 5%;
+  margin-left: 65%;
+  width: 30%;
+  background: #336cfb;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  color: #ffffff;
+}

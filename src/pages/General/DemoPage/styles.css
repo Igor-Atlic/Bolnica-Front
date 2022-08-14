@@ -1,0 +1,11 @@
+.loginLink {
+  text-decoration: none;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.sidebar-link-container {
+  width: 256px;
+}

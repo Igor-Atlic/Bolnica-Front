@@ -1,0 +1,191 @@
+.delete-appointment-container {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  /*left: 70%;*/
+  right: 0;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  z-index: 100;
+  background-color: white;
+}
+
+.delete-appointment-header {
+  background-color: #e9f0ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+
+.break-line {
+  color: #424242;
+  height: 1px;
+  background-color: #424242;
+  width: 100%;
+  margin: 0;
+}
+
+.delete-appointment-doctor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doctor-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px 0 20px;
+  margin-right: 20px;
+}
+
+.user-avatar {
+  width: 44px;
+  height: 41px;
+  border-radius: 50px;
+  margin-right: 17px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #25282b;
+}
+
+.user-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+}
+
+.btn-container {
+  align-items: center;
+  justify-content: right;
+}
+
+.comment-btn {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+
+  /* Neutral / Black */
+  color: #25282b;
+}
+
+.delete-appointment-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-appointment-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dropdown1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 0 25px;
+}
+
+.dropdown2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 0 25px;
+}
+
+.dropdown3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 0 25px;
+}
+
+.header-paragraph {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #25282b;
+  padding: 20px 0 20px;
+}
+
+.reason-p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+  margin-bottom: 10px;
+}
+
+.patient-p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+  margin-bottom: 10px;
+}
+
+.date-p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background: #e74f48;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,31 @@
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.padding-y-30 {
+  padding: 30px 0px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.radius-left {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.radius-right {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.buttonFix {
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}

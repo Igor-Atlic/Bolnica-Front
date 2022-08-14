@@ -1,0 +1,76 @@
+li {
+  list-style-type: none;
+}
+
+.customBrand1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  margin: 32px 24px;
+
+  color: #336cfb;
+}
+
+.customBrand2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin: 10px 24px;
+
+  color: #52575c;
+}
+
+.active-link {
+  color: #336cfb;
+}
+
+.sidebar-container {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.navbar-collapse {
+  background: transparent;
+  height: inherit;
+  /*  box-shadow: none;  */ /* override box shadow */
+}
+
+.navbar-collapse.collapsing {
+  overflow: hidden;
+}
+
+.collapse {
+  box-shadow: none; /* override box shadow */
+}
+
+#navbarSupportedContent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.smaller-container {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  box-shadow: 5px 0 5px -5px #333; /* Normal box shadow */
+}
+
+/* .navbar-toggler {
+  margin-left: 4px;
+  margin-top: 4px;
+} */
+
+.link-list {
+  width: 100%;
+}

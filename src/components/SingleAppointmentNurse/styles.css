@@ -1,0 +1,150 @@
+.appointment {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: -5px 5px 5px 1px rgba(226, 222, 222, 0.75);
+}
+
+.text1 {
+  font-size: 20px;
+}
+
+.text2 {
+  font-size: 16px;
+  color: #a0a4a8;
+}
+
+.appTime {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 21px;
+  color: #cacccf;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.customContainer {
+  width: 90%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.isCurrently .appointment {
+  background-color: #336cfb;
+}
+.isCurrently .appTime {
+  color: black;
+}
+
+.customButton1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  width: 20%;
+  height: 50%;
+  font-size: 12px;
+  background-color: #fac032;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.customButton2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  width: 20%;
+  height: 50%;
+  font-size: 12px;
+  background-color: #dfe2e6;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.customButton3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  width: 20%;
+  height: 50%;
+  font-size: 12px;
+  background-color: #e74f48;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.customButton4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  width: 20%;
+  height: 50%;
+  font-size: 12px;
+  background-color: #dfe2e6;
+  color: white;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.customClass {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.appointment:hover {
+  background-color: #336cfb;
+  transition: 0.2s;
+}
+
+div.appointment:hover .customButton2 {
+  background-color: inherit;
+  transition: 0.2s;
+}

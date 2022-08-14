@@ -1,0 +1,16 @@
+.tabButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main {
+  margin: 30px;
+  padding: 20px 40px;
+  background-color: white;
+  -webkit-box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+}
+
+.negateClass {
+  width: 20% !important;
+}

@@ -1,0 +1,58 @@
+.containerCustom {
+  width: 90%;
+  margin: auto;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doctor-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logout-btn {
+  padding: 10px 25px;
+  background: #336cfb;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.name-container {
+  display: flex;
+
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.2px;
+  margin-bottom: 8px;
+  color: #52575c;
+}
+
+.user-title {
+  font-size: 18px;
+  color: #52575c;
+}
+
+.toggleButton {
+  font-size: 25px;
+  padding: 10px 40px;
+  background-color: transparent;
+  color: black;
+}

@@ -1,0 +1,12 @@
+<div className="components">
+        <GeneralStats
+          image={"fa-solid fa-briefcase-medical"}
+          text="Zakazani pregledi"
+          number="34"
+         />
+        <GeneralStats
+          image={"fa-solid fa-person-cane"}
+          text="Broj pacijenata"
+          number="10"
+        />
+</div>

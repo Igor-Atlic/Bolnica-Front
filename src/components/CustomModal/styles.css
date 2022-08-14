@@ -1,0 +1,106 @@
+.component {
+  background: #ffffff;
+  border-radius: 30px !important;
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.fixBorder {
+  border: none;
+}
+
+.fixPadding {
+  padding: 0px;
+}
+
+.launchButton {
+  background: #336cfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  color: #25282b;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  padding-top: 2%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.close {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  color: #cacccf;
+  padding-left: 20%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.success {
+  width: 60px;
+  height: 60px;
+  padding-left: 15%;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.leftNotSuccess {
+  background-color: #e74f48;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 20px;
+}
+
+.leftSuccess {
+  background-color: #10b981;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 20px;
+}
+.vertical {
+  border-left: 2px solid #d7d7d7;
+  height: 200%;
+}

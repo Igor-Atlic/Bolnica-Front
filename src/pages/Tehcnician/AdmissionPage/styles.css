@@ -1,0 +1,42 @@
+.isActive {
+  background-color: #336cfb;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+}
+
+.inactive {
+  background-color: #336cfb;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-color: #cacccf;
+  background-color: #cacccf;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+}
+
+.nav-item {
+  width: max-content;
+}
+
+.nav-justified {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.form-custom {
+  width: 60%;
+  margin: auto;
+}
+
+.disabled {
+  background-color: #cacccf;
+  border-color: #cacccf;
+}

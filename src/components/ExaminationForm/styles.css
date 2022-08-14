@@ -1,0 +1,67 @@
+.examForm {
+  width: 80%;
+  margin: auto;
+  color: #52575c;
+}
+
+.examSubmit {
+  margin-top: 15px;
+}
+
+.patient-info-custom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #cedcfa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.patient-personal-info,
+.patient-other-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.patient-info-text {
+  margin: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-section-heading {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 700;
+}
+.form-group-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-label-custom {
+  width: 20%;
+}
+
+textarea,
+.form-select-custom,
+option {
+  background-color: #e9f0ff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  min-height: 75px;
+  color: #52575c;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+}
